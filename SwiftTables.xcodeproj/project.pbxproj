@@ -14,6 +14,8 @@
 		3460F9DA1BD7054E0098EBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3460F9D81BD7054E0098EBCB /* LaunchScreen.storyboard */; };
 		3460F9E51BD7054E0098EBCB /* SwiftTablesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460F9E41BD7054E0098EBCB /* SwiftTablesTests.swift */; };
 		3460F9F01BD7054E0098EBCB /* SwiftTablesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460F9EF1BD7054E0098EBCB /* SwiftTablesUITests.swift */; };
+		3460FA011BD70EBB0098EBCB /* TVExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460F9FF1BD70EBB0098EBCB /* TVExampleCell.swift */; settings = {ASSET_TAGS = (); }; };
+		3460FA021BD70EBB0098EBCB /* TVExampleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3460FA001BD70EBB0098EBCB /* TVExampleCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3460F9EB1BD7054E0098EBCB /* SwiftTablesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTablesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3460F9EF1BD7054E0098EBCB /* SwiftTablesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTablesUITests.swift; sourceTree = "<group>"; };
 		3460F9F11BD7054E0098EBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3460F9FF1BD70EBB0098EBCB /* TVExampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVExampleCell.swift; sourceTree = "<group>"; };
+		3460FA001BD70EBB0098EBCB /* TVExampleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TVExampleCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3460F9D61BD7054E0098EBCB /* Assets.xcassets */,
 				3460F9D81BD7054E0098EBCB /* LaunchScreen.storyboard */,
 				3460F9DB1BD7054E0098EBCB /* Info.plist */,
+				3460F9FF1BD70EBB0098EBCB /* TVExampleCell.swift */,
+				3460FA001BD70EBB0098EBCB /* TVExampleCell.xib */,
 			);
 			path = SwiftTables;
 			sourceTree = "<group>";
@@ -192,6 +198,7 @@
 				TargetAttributes = {
 					3460F9CB1BD7054D0098EBCB = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = C4NFUQ8T98;
 					};
 					3460F9DF1BD7054E0098EBCB = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -228,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3460FA021BD70EBB0098EBCB /* TVExampleCell.xib in Resources */,
 				3460F9DA1BD7054E0098EBCB /* LaunchScreen.storyboard in Resources */,
 				3460F9D71BD7054E0098EBCB /* Assets.xcassets in Resources */,
 				3460F9D51BD7054E0098EBCB /* Main.storyboard in Resources */,
@@ -257,6 +265,7 @@
 			files = (
 				3460F9D21BD7054E0098EBCB /* ViewController.swift in Sources */,
 				3460F9D01BD7054E0098EBCB /* AppDelegate.swift in Sources */,
+				3460FA011BD70EBB0098EBCB /* TVExampleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftTables/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = REPL.SwiftTables;
@@ -407,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftTables/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = REPL.SwiftTables;
